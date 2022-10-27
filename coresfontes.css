@@ -1,0 +1,122 @@
+@charset 'UFT-8';
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Oswald&family=Poppins:wght@400;600&display=swap');
+
+
+:root {
+  /* Cores */
+  --cor0: #d1dbf0ff;
+  --cor1: #88a3d8ff;
+  --cor2: #6588cdff;
+  --cor3: #3c66b9ff;
+  --cor4: #233b6cff;
+}
+
+.cor0 {
+  color: var(--cor0);
+}
+
+.cor1 {
+  color: var(--cor1);
+}
+
+.cor2 {
+  color: var(--cor2);
+}
+
+.cor3 {
+  color: var(--cor3);
+}
+
+.cor4 {
+  color: var(--cor4);
+}
+
+/* Font-1: Poppins / Font-2: Roboto */
+
+.font-1-12 {
+    font: 400 1.2rem/1.35 "Poppins", sans-serif;
+  }
+  
+  .font-1-14 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .font-1-16 {
+    font: 400 1.6rem/1.5 "Poppins", sans-serif;
+  }
+  
+  .font-1-18,
+  .font-1-18-b {
+    font: 400 1.8rem/1.125 "Poppins", sans-serif;
+  }
+  
+  .font-1-18-b {
+    font-weight: 600;
+  }
+  
+  .font-1-24 {
+    font: 400 2.4rem/1.5 "Poppins", sans-serif;
+  }
+  
+  .font-1-32 {
+    font: 600 3.2rem/1.25 "Poppins", sans-serif;
+  }
+  
+  .font-1-64 {
+    font: 600 6.4rem/1.125 "Poppins", sans-serif;
+  }
+  
+  /* Font-2 */
+  
+  .font-2-14 {
+    font: 400 1.4rem/1.43 "Montserrat", sans-serif;
+  }
+  
+  .font-2-16 {
+    font: 400 1.6rem/1.5 "Montserrat", sans-serif;
+  }
+  
+  .font-2-18 {
+    font: 500 1.8rem/1.35 "Montserrat", sans-serif;
+  }
+  
+  .font-2-24,
+  .font-2-24-b {
+    font: 400 2.4rem/1.5 "Montserrat", sans-serif;
+  }
+  
+  .font-2-24-b {
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+  }
+  
+  .font-2-32 {
+    font: 500 3.2rem/1.25 "Montserrat", sans-serif;
+  }
+  
+  @media (max-width: 1200px) {
+    .font-1-64 {
+      font-size: 4.8rem;
+    }
+    .font-2-24,
+    .font-2-24-b {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .font-1-64 {
+      font-size: 3.2rem;
+    }
+  
+    .font-1-32,
+    .font-2-32 {
+      font-size: 2.4rem;
+    }
+  }

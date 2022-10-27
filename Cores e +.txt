@@ -1,0 +1,6 @@
+/* CSS HEX */
+--dark-cornflower-blue: #233b6cff;
+--true-blue: #3c66b9ff;
+--glaucous: #6588cdff;
+--little-boy-blue: #88a3d8ff;
+--periwinkle-crayola: #d1dbf0ff;
